@@ -21,7 +21,7 @@ export default function SearchBar({
   }, [initialValue]);
 
   return (
-    <div className="flex items-center bg-[#1C2126] px-4 rounded-xl w-full max-w-[480px] h-[64px] mt-6 shadow-lg">
+    <div className="flex items-center bg-[#1C2126] px-2 rounded-xl w-full max-w-[480px] h-[64px] mt-6 shadow-lg">
       <Search className="text-gray-400" />
       <Input
         value={innerValue}
