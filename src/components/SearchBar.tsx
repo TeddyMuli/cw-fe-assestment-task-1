@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import { Input } from "./ui/input";
 import { Button } from "./ui/button";
 
-export default function BoxArea108({
+export default function SearchBar({
   initialValue,
   onSearch,
 }: {

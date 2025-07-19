@@ -1,4 +1,4 @@
-import BoxArea108 from "./BoxArea108";
+import BoxArea108 from "./SearchBar";
 
 export default function BoxArea97() {
   const onSearch = (search: string) => {
