@@ -1,4 +1,4 @@
-import { Badge } from "lucide-react";
+import { Badge } from "./ui/badge";
 
 interface props {
   title: string
@@ -13,7 +13,7 @@ export default function TagList({ title, tags }: props) {
         {tags.map((tag) => (
           <Badge
             key={tag}
-            className="bg-gray-800 text-white hover:bg-gray-700 cursor-pointer"
+            className="bg-gray-800 text-neutral-300 hover:bg-gray-700 cursor-pointer"
           >
             {tag}
           </Badge>
