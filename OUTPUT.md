@@ -61,4 +61,7 @@
   - Fix: Change component name to HeroSection for clarity.
 2. Heading
   - Issue: Heading didn't match designs
-  - Fix: Add break to create second line
+  - Fix: Add max width to create second line
+3. Mobile Responsivenes
+  - Issue: Lack of spacing in smaller screens
+  - Fix: Apply a width of 90% in smaller screens for spacing
