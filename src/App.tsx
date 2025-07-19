@@ -1,21 +1,19 @@
-import { useState } from "react";
 import Header from "./components/Header";
 import BoxArea97 from "./components/BoxArea97";
 import TagList from "./components/TagList";
 
+const tags = [
+  "NFT",
+  "Metaverse",
+  "Sustainable",
+  "Sonder",
+  "FOMO",
+  "Ghosting",
+];
 
 export default function App() {
-  const [tags, setTags] = useState([
-    "NFT",
-    "Metaverse",
-    "Sustainable",
-    "Sonder",
-    "FOMO",
-    "Ghosting",
-  ]);
-
   return (
-    <main className="bg-black min-h-screen text-white">
+    <main className="bg-[#121417] min-h-screen text-white">
       <Header />
       <BoxArea97 />
       <TagList title="Trending" tags={tags} />
