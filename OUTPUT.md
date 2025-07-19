@@ -28,3 +28,8 @@
 1. BoxArea108 is an ambigous name
   - Issue: The name BoxArea108 is ambigous
   - Fix: Change component name to SearchBar for clarity.
+
+### HeroSection.tsx
+1. BoxArea97 is an ambigous name
+  - Issue: The name BoxArea97 is ambigous
+  - Fix: Change component name to HeroSection for clarity.
