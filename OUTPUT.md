@@ -23,3 +23,8 @@
 1. Type error
   - Issue: Type Errors for title and tags props
   - Fix: Create props interface
+
+### SearchBar.tsx
+1. BoxArea108 is an ambigous name
+  - Issue: The name BoxArea108 is ambigous
+  - Fix: Change component name to SearchBar for clarity.

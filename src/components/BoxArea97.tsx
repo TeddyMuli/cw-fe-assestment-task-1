@@ -1,4 +1,4 @@
-import BoxArea108 from "./SearchBar";
+import SearchBar from "./SearchBar";
 
 export default function BoxArea97() {
   const onSearch = (search: string) => {
@@ -13,7 +13,7 @@ export default function BoxArea97() {
         <h1 className="text-3xl md:text-5xl font-bold text-white">
           Search for words, phrases and meanings
         </h1>
-        <BoxArea108 initialValue="" onSearch={onSearch} />
+        <SearchBar initialValue="" onSearch={onSearch} />
       </div>
     </div>
   );
