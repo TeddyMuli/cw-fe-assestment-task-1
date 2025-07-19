@@ -1,6 +1,11 @@
 import { Badge } from "lucide-react";
 
-export default function TagList({ title, tags }) {
+interface props {
+  title: string
+  tags: string[]
+}
+
+export default function TagList({ title, tags }: props) {
   return (
     <div className="mt-8 px-6 max-w-5xl mx-auto">
       <div className="text-white text-lg font-semibold mb-4">{title}</div>
