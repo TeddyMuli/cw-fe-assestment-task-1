@@ -1,5 +1,5 @@
 import Header from "./components/Header";
-import BoxArea97 from "./components/BoxArea97";
+import BoxArea97 from "./components/HeroSection";
 import TagList from "./components/TagList";
 
 const tags = [

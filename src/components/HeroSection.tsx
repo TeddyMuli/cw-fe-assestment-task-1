@@ -1,6 +1,6 @@
 import SearchBar from "./SearchBar";
 
-export default function BoxArea97() {
+export default function HeroSection() {
   const onSearch = (search: string) => {
     console.log(search);
     // implementing the search logic is not required for this task
