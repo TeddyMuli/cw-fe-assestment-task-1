@@ -11,18 +11,13 @@ export default function Header() {
       </div>
 
       <div className="flex items-center gap-4">
-        <div style={{ position: "relative" }}>
-          <span>
-            <span>
-              <span className="absolute left-3 top-2.5">
-                <Search className="text-gray-400 text-sm" />
-              </span>
-            </span>
-          </span>
+        <div className="flex gap-[2px] items-center p-3 bg-[#293038] w-[160px] h-[40px] rounded-xl">
+          <Search className="text-gray-400 text-sm" />
           <Input
             type="text"
-            value="search"
-            className="pl-9 bg-gray-800 text-white border-none focus:ring-0 rounded-full"
+            value=""
+            placeholder="Search"
+            className="text-[#9EABB8] border-none focus:ring-0 rounded-full placeholder:text-[16px] placeholder:text-[#9EABB8]"
           />
         </div>
         <Avatar style={{ width: "32px", height: "32px" }}>
