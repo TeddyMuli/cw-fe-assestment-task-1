@@ -1,15 +1,11 @@
-[Example output - you should start from scratch]
-
 ## Changes Made
 
-###[Component Name]
+### App.tsx
+1. Move components to different files for readability.
+2. Import components into App.tsx
 
-1. useEffect in line 37
-   - Issue: useEffect missing dependencies causing stale state
-   - Fix: Added required dependencies to useEffect array
-2. Accessibility issue with the search icon line 98
-   - Issue: search icon is not accessible
-   - Fix: Added search icon to the input field
+### TagList.tsx
+1. Add interface to fix typing errors
 
 ### [Another Component Name]
 
