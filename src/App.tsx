@@ -1,4 +1,8 @@
 import { useState } from "react";
+import Header from "./components/Header";
+import BoxArea97 from "./components/BoxArea97";
+import TagList from "./components/TagList";
+
 
 export default function App() {
   const [tags, setTags] = useState([
