@@ -28,6 +28,12 @@
 1. BoxArea108 is an ambigous name
   - Issue: The name BoxArea108 is ambigous
   - Fix: Change component name to SearchBar for clarity.
+2. Size mismatch.
+  - Issue: The size doesn't match the designs.
+  - Fix: Change size to 480 x 64
+3. Color Mismatch.
+  - Issue: The colors of the background don't match the designs.
+  - Fix: Change color to match those in the designs.
 
 ### HeroSection.tsx
 1. BoxArea97 is an ambigous name
