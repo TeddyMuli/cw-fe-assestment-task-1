@@ -24,6 +24,9 @@
 3. Profile Picture.
   - Issue: Missing Profile Picture
   - Fix: Add profile picture from design
+4. Header Title:
+  - Issue: The title was wrongly spelled, it read: Wortionary
+  - Fix: Fix spelling to match design: Worctionary 
 
 ### TagList.tsx
 1. Type error

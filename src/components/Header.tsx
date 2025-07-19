@@ -7,7 +7,7 @@ export default function Header() {
     <header className="flex items-center justify-between px-6 py-4 bg-[#121417] border-b border-[#9EABB8]">
       <div className="flex items-center gap-2">
         <img src="/task1/logo.png" alt="Logo" className="w-10 h-10" />
-        <div className="text-white font-semibold text-lg">Worcionary</div>
+        <div className="text-white font-semibold text-lg">Worctionary</div>
       </div>
 
       <div className="flex items-center gap-4">
