@@ -13,7 +13,7 @@ export default function TagList({ title, tags }: props) {
         {tags.map((tag) => (
           <Badge
             key={tag}
-            className="bg-gray-800 text-neutral-300 hover:bg-gray-700 cursor-pointer"
+            className="bg-[#293038] text-[#9EABB8] hover:bg-gray-700 text-[14px] cursor-pointer h-[32px]"
           >
             {tag}
           </Badge>

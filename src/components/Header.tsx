@@ -21,7 +21,7 @@ export default function Header() {
           />
         </div>
         <Avatar style={{ width: "32px", height: "32px" }}>
-          <AvatarImage src="/avatar.jpg" />
+          <AvatarImage src="/avatar.png" />
           <AvatarFallback>U</AvatarFallback>
         </Avatar>
       </div>

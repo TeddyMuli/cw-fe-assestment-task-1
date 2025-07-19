@@ -21,7 +21,7 @@ export default function SearchBar({
   }, [initialValue]);
 
   return (
-    <div className="flex items-center bg-[#1C2126] px-4 py-2 rounded-full w-full max-w-[480px] h-[64px] mt-6 shadow-lg">
+    <div className="flex items-center bg-[#1C2126] px-4 rounded-xl w-full max-w-[480px] h-[64px] mt-6 shadow-lg">
       <Search className="text-gray-400" />
       <Input
         value={innerValue}
@@ -30,7 +30,7 @@ export default function SearchBar({
         placeholder="Type to search..."
         className="flex-1 bg-transparent border-none text-white placeholder:text-[#9EABB8] placeholder:text-[16px] focus:ring-0"
       />
-      <Button className="bg-[#1A80E5] hover:bg-blue-700 text-white ml-4 text-[16px]">
+      <Button className="bg-[#1A80E5] hover:bg-blue-500 text-white ml-4 text-[16px] w-[96px] h-[48px]" >
         Search
       </Button>
     </div>
