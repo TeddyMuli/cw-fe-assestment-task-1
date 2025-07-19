@@ -26,7 +26,12 @@
   - Fix: Add profile picture from design
 4. Header Title:
   - Issue: The title was wrongly spelled, it read: Wortionary
-  - Fix: Fix spelling to match design: Worctionary 
+  - Fix: Fix spelling to match design: Worctionary
+
+### index.html
+1. Title:
+  - Issue: The title was wrongly spelled, it read: Wortionary
+  - Fix: Fix spelling to match design: Worctionary
 
 ### TagList.tsx
 1. Type error
