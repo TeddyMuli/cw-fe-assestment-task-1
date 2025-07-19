@@ -13,7 +13,7 @@ const tags = [
 
 export default function App() {
   return (
-    <main className="bg-[#121417] min-h-screen text-white">
+    <main className="bg-[#121417] min-h-screen text-white pb-8">
       <Header />
       <HeroSection />
       <TagList title="Trending" tags={tags} />
