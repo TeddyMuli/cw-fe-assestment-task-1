@@ -15,6 +15,9 @@
 1. Colors mismatch
   - Issue: Black background and grey border
   - Fix: Change to #121417 background and #9EABB8 border
+2. SearchBar
+  - Issue: Complex and wrong implementation. Color and size mismatch.
+  - Fix: Simplify implementation. Match colors and size to design.
 
 ### TagList.tsx
 1. Type error
