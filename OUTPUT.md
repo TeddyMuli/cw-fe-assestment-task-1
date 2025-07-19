@@ -65,3 +65,8 @@
 3. Mobile Responsivenes
   - Issue: Lack of spacing in smaller screens
   - Fix: Apply a width of 90% in smaller screens for spacing
+
+### Input.tsx
+1. Focus ring in search bars
+  - Issue: Focus ring visible in search bars
+  - Fix: Modify component to remove focus ring
